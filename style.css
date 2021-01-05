@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.heading{
+    width: 100%;
+    height: 100px;
+}
+.heading ul{
+    float: right;
+    margin: 40px 0 0 0;
+    font-weight: bold;
+    color: #3C3C3C;
+}
+h1{
+    font-size: 80px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    line-height: .2em;
+    color: #363958;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 2p solid none;
+    border-radius: 3px;
+}
+#highlight{
+    color: #FF8367;
+}
+.header-area{
+    overflow: hidden;
+}
+.heading ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding: 5px 20px;
+}
+.header-area .left-area{
+    width: 50%;
+    float: left;
+}
+.header-area .right-area{
+    width: 50%;
+    float: left;
+}
+.header-area .right-area img{
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
