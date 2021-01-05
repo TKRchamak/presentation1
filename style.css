@@ -76,6 +76,7 @@ a{
 }
 .lorem{
     overflow: hidden;
+    padding-bottom: 50px;
 }
 .lorem .left-area img{
     width: 75%;
@@ -93,10 +94,10 @@ a{
     margin-bottom: 50px;
 }
 
-
-
 .portfolio_part{
-    margin-bottom: 100px;
+    padding-bottom: 80px;
+    background-color: #F8F9FC;
+    overflow: hidden;
 }
 .portfolio_part h3{
     text-align: center;
@@ -119,9 +120,35 @@ a{
     padding: 1%;
     margin: 3%;
     box-shadow: 10px 10px 40px transparent;
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 .portfolio_part .work_portfolio .portfolio:hover{
     box-shadow: 10px 10px 40px gray;
-    
 }
+
+
+.work-in{
+    overflow: hidden;
+    width: 70%;
+    margin-bottom: 100px;
+    background-image: url("shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.work-in .left{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.work-in .right{
+    float: right;
+    width: 30%;
+    overflow: hidden;
+}
+.work-in .right a{
+    margin-top: 126px;
+    display: block;
+}
+
