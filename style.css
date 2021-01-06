@@ -124,7 +124,7 @@ a:hover{
     overflow: hidden;
     padding: 1%;
     margin: 3%;
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 10px 10px 30px gray;
     transition-duration: 1s;
 }
 .portfolio_part .work_portfolio .portfolio:hover{
@@ -157,6 +157,7 @@ footer{
     width: 100%;
     text-align: center;
     margin: auto;
+    margin-bottom: 100px;
 }
 footer h5{
     color: #696871;
