@@ -126,6 +126,8 @@ a:hover{
     margin: 3%;
     box-shadow: 10px 10px 30px gray;
     transition-duration: 1s;
+    border: 1px solid transparent;
+    border-radius: 5px;
 }
 .portfolio_part .work_portfolio .portfolio:hover{
     box-shadow: 10px 10px 40px#534FD5;
