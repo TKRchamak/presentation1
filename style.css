@@ -24,9 +24,13 @@ a{
     text-decoration: none;
     color: #FFFFFF;
     border: 2p solid none;
-    border-radius: 3px;
+    border-radius: 5px;
     background-image: linear-gradient(#F56060, #FEBCB1);
     padding: 14px 48px;
+    transition-duration: 1s;
+}
+a:hover{
+    background-image: linear-gradient( #FEBCB1, #F56060); 
 }
 .container{
     width: 85%;
@@ -98,6 +102,7 @@ a{
     padding-bottom: 80px;
     background-color: #F8F9FC;
     overflow: hidden;
+    display: block;
 }
 .portfolio_part h3{
     text-align: center;
@@ -128,27 +133,55 @@ a{
 
 
 .work-in{
-    overflow: hidden;
     width: 70%;
-    margin-bottom: 100px;
+    height: 500px;
     background-image: url("shapes/Group_33094_1.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    margin-left: 16%;
 
 }
-.work-in .left{
+.one h3{
     float: left;
-    width: 50%;
-    overflow: hidden;
+    margin-top: 250px;
+    margin-left: 50px;
 }
-.work-in .right{
+.one a{
     float: right;
-    width: 30%;
-    overflow: hidden;
-}
-.work-in .right a{
-    margin-top: 126px;
-    display: block;
+    margin-top: 230px;
+    margin-right: 50px;
 }
 
+footer{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+footer h5{
+    color: #696871;
+    font-weight: 400;
+
+}
+footer p{
+    color: #363958;
+    font-size: 25px;
+    font-weight: bold;
+}
+.social-icon ul{
+    width: 80%;
+    margin: auto;
+    padding: 0;
+}
+
+.social-icon ul li{
+    list-style: none;
+    display: inline;
+    padding: 5px 10px;
+
+}
+
+.social-icon ul li img{
+    width: 40px;
+    height: auto;
+}
